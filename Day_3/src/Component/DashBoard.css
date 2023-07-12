@@ -1,0 +1,57 @@
+.leftnav {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(-14.5rem);
+  }
+.log{
+  background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    transform: translateY(15.5rem);
+}
+  /* Style the links inside the navigation bar */
+  .leftnav a {
+    float: left;
+    color: #f2f2f2;
+    background-color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+.log a{
+  float: left;
+  color: #ff0000;
+  background-color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+}
+  /* Change the color of links on hover */
+  .leftnav a:hover {
+    background-color: #007bff;
+    color: rgb(0, 0, 0);
+  }
+  .log a:hover{
+    background-color: #ff0000;
+    color: aliceblue;
+  }
+  
+  /* Add a color to the active/current link */
+  .leftnav a.active {
+    background-color: #04AA6D;
+    color: rgb(254, 254, 254);
+  }
+  .field{
+    transform: translateX(38rem);
+    font-size: x-large;
+    border-radius: 7px;
+    border-color: #ff0000;
+    color:#000000;
+    border-style:groove;
+    border-width: 3px;
+  }
